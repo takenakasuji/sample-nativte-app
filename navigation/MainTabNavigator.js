@@ -35,7 +35,7 @@ LinksStack.navigationOptions = {
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={Platform.OS === 'ios' ? 'ios-heart' : 'heart'}
+      name={Platform.OS === 'ios' ? 'ios-heart' : 'md-heart'}
     />
   ),
 };
@@ -49,7 +49,7 @@ MessageStack.navigationOptions = {
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={Platform.OS === 'ios' ? 'ios-mail' : 'mail'}
+      name={Platform.OS === 'ios' ? 'ios-mail' : 'md-mail'}
     />
   ),
 };
@@ -63,7 +63,7 @@ SettingsStack.navigationOptions = {
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={Platform.OS === 'ios' ? 'ios-at' : 'at'}
+      name={Platform.OS === 'ios' ? 'ios-at' : 'md-at'}
     />
   ),
 };
